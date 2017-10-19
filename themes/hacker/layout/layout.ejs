@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<%- partial('components/head') %>
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <%- partial('components/header') %>
+
+    <main class="site-main posts-loop">
+    <%- body %>
+    </main>
+
+    <%- partial('components/footer') %>
+    <%- partial('components/googleanalytics') %>
+  </div>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599d7291fc3c1151"></script>
+</body>
+</html>
