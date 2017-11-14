@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://test.miejskamuzyka.pl
+url: http://miejskamuzyka.pl
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,10 +78,10 @@ theme: hacker
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ftpsync
-  host: test.miejskamuzyka.pl
+  host: miejskamuzyka.pl
   user: miejskamuzyka.pl@serwer1758984.home.pl
   pass: 7jzgnAw0kl3b
-  remote: /public_html/MiejskaMuzyka/test
+  remote: /public_html/MiejskaMuzyka
   port: 21
   ignore: ignore
   connections: 1
